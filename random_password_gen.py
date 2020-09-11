@@ -11,7 +11,7 @@ for i in range(2):
     numbers = chr(random.randint(48, 57))
     password += numbers
 for i in range(2):
-    symbols = chr(random.randint(32, 47) or random.randint(58, 64) or random.randint(91, 96) or random.randint(123, 126) or random.randint(145, 149) or random.randint(152))
+    symbols = chr(random.randint(33, 47) or random.randint(58, 64) or random.randint(91, 96) or random.randint(123, 126) or random.randint(145, 149) or random.randint(152))
     password += symbols
 random.randint = password
 print(password)
